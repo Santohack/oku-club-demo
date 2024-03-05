@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="flex gap-6">
         {navigation.map((item) => (
           <Link key={item.name} href={item.href}>
-            <span className="text-[17px]">{item.name}</span>
+            <span className="text-[17px] text-gray-200">{item.name}</span>
           </Link>
         ))}
       </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
           href="/login"
           className="border rounded px-8 border-gray-300 py-2 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
         >
-          <span className="text-[17px]">Sign In</span>
+          <span className="text-[17px] text-gray-200">Sign In</span>
         </Link>
         <Link
           href="/login"
