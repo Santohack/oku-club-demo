@@ -1,13 +1,13 @@
 import React from "react";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { Star } from "lucide-react";
 
 const ReviewCard = (props) => {
   return (
     <div className="px-3 mx-2 ">
       <div className="p-2">
         <span className="text-green-500">
-          <FontAwesomeIcon icon={faStar} /> Recommended
+          <Star size={24} /> Recommended
         </span>{" "}
         <span>by {props.review.userName}</span>
         <span>. {props.review.date}</span>

@@ -1,5 +1,4 @@
-import { faGoodreads, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { X } from "lucide-react";
 import React from "react";
 
 const Rating = () => {
@@ -25,12 +24,11 @@ const Rating = () => {
         </div>
         <hr />
         <div className="text-lg my-3">
-          <FontAwesomeIcon icon={faGoodreads} size="2xl" /> - 4.3/5 on Goodreads
+          <X size={24} /> - 4.3/5 on Goodreads
         </div>
 
         <div className="text-lg my-3">
-          <FontAwesomeIcon icon={faGoogle} size="2xl" /> - 4.3/5 on Google
-          
+          <X size={24} /> - 4.3/5 on Google
         </div>
       </div>
     </div>
