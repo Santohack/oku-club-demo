@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import ItemCard from "../itemCard";
 import ProfileCard from "../profileCard";
+import ReadingGoal from "../Reading-Goal";
 
 const Sidebar = () => {
   return (
@@ -43,7 +44,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -65,7 +66,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -87,7 +88,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -109,7 +110,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -138,7 +139,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -160,7 +161,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -182,7 +183,7 @@ const Sidebar = () => {
                   height="28"
                   viewBox="0 0 28 28"
                   width="28"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                 >
                   <path
@@ -212,7 +213,7 @@ const Sidebar = () => {
                   height="20"
                   viewBox="0 0 20 20"
                   width="20"
-                  class="css-y7zllx"
+                  className="css-y7zllx"
                   fill="currentColor"
                   stroke="currentColor"
                 >
@@ -225,38 +226,70 @@ const Sidebar = () => {
                 </svg>
               }
             />
-           
           </li>
-          <li className={`relative `}>
-              <ItemCard
-                href="/readgoal"
-                label={"Readiing Goal"}
-                svg={
-                  <svg
-                    height="18"
-                    viewBox="0 0 18 18"
-                    width="18"
-                    class="css-j2l39w"
-                  >
-                    <g
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      stroke-width="1.5"
-                      fill="currentColor"
-                    >
-                      <path d="m12.375 13v-1.125c0-.8951-.3556-1.7536-.9885-2.38649-.6329-.63293-1.49139-.98851-2.3865-.98851s-1.75355.35558-2.38649.98851c-.63293.63289-.98851 1.49139-.98851 2.38649v1.125"></path>
-                      <path d="m14.625 13v-1.125c0-1.4918-.5926-2.92258-1.6475-3.97748-1.0549-1.05489-2.4857-1.64752-3.9775-1.64752-1.49184 0-2.92258.59263-3.97748 1.64752-1.05489 1.0549-1.64752 2.48568-1.64752 3.97748v1.125"></path>
-                      <path d="m16.875 13v-1.125c0-2.08858-.8297-4.09162-2.3065-5.56847-1.4769-1.47684-3.4799-2.30653-5.5685-2.30653-2.08858 0-4.09162.82969-5.56847 2.30653-1.47684 1.47685-2.30653 3.47989-2.30653 5.56847v1.125"></path>
-                    </g>
-                  </svg>
-                }
-              />
-            </li>
+         
         </ul>
       </div>
       <br />
-      <ProfileCard />
+      <ReadingGoal />
+      <div>
+        <ProfileCard
+        href={"/profile"}
+          profileImg={
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Frame 48096672" clipPath="url(#clip0_1_1466)">
+                <circle
+                  id="Ellipse 539"
+                  cx="9.5332"
+                  cy="10.001"
+                  r="8.28667"
+                  stroke="#37414E"
+                  strokeWidth="2.49306"
+                />
+                <path
+                  id="Ellipse 540"
+                  d="M9.5332 1.7143C10.9935 1.7143 12.4278 2.10017 13.6909 2.83283C14.9541 3.5655 16.0012 4.61893 16.7262 5.88647C17.4513 7.154 17.8285 8.59062 17.8197 10.0509C17.8109 11.5111 17.4164 12.9431 16.6762 14.2018"
+                  stroke="#ECEEF1"
+                  strokeWidth="2.49306"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_1466">
+                  <rect
+                    width="19.0664"
+                    height="19.0664"
+                    fill="white"
+                    transform="translate(0 0.466797)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          }
+          userName={"John Player"}
+          RightIcon={
+            <svg
+              height="4"
+              viewBox="0 0 16 4"
+              width="11"
+              className="css-y7zllx"
+              fill="currentColor"
+            >
+              <path
+                clipRule="evenodd"
+                d="m14 4c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-6 0c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-6 0c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z"
+                fillRule="evenodd"
+                fill="currentColor"
+              ></path>
+            </svg>
+          }
+        />
+      </div>
     </div>
   );
 };

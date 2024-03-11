@@ -9,7 +9,7 @@ const ItemCard = ({ href, label ,svg}) => {
 
   return (
     <div
-      className={`hover:bg-[#1C1C1D] text-[14px] rounded px-3 ${
+      className={` hover:translate-y-0.5 hover:bg-[#1C1C1D] text-[14px] rounded px-3 ${
         active ? "bg-[#1C1C1D] text-gray-400" : "text-gray-400"
       }`}
     >
