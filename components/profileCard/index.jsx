@@ -66,8 +66,8 @@ const ProfileCard = () => {
                 d="M3.23975 8.00049H12.6479M12.6479 8.00049L9.11987 4.47241M12.6479 8.00049L9.11987 11.5286"
                 stroke="#ECEEF1"
                 strokeWidth="1.17603"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </svg>

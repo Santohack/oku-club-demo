@@ -24,7 +24,7 @@ const ItemCard = ({ href, label ,svg}) => {
         </div>
       </Link>
       <Link
-        href="/contacts"
+        href={href}
         className={`inline-block 
                "scale-0"
               } w-full py-2 pl-8 pr-4   `}

@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`bg-[#131314] flex justify-between items-start ${inter.className}`}>
         <ThemeProvider attribute="class" enableSystem disableTransitionOnChange>
           <SideBar />
-          <main className="w-full h-full">
+          <main className="w-full h-full text-gray-400">
             <Navbar />
           {children}
           <Footer />
