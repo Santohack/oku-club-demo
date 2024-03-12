@@ -6,11 +6,11 @@ import Buy from "./Buy";
 
 const BookDetails = () => {
   return (
-    <div className="lg:flex justify-between mx-auto w-3/4">
+    <div className="lg:flex justify-between mx-auto">
       <div>
         <TabsDescription />
       </div>
-      <div className="text-white">
+      <div className="text-white ml-10">
         <Rating />
         <Collections />
         <Buy />
