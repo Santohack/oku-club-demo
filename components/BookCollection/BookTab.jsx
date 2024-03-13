@@ -10,7 +10,7 @@ const BookTabs = ({ children }) => {
 
   return (
     <div className=" mx-auto">
-      <div className="flex w-[1000px] border-b border-gray-300">
+      <div className="flex border-b border-gray-300">
         {children.map((child) => (
           <button
             key={child.props.label}

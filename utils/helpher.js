@@ -39,3 +39,5 @@ export const menuOptions = [
     svg: <LogOut />,
   },
 ];
+
+export const img = ""
