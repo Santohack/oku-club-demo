@@ -29,7 +29,7 @@ const EmblaCarousel = (props) => {
       
       <div className="embla__controls  ">
         
-        <div className="embla__buttons pb-10 ">
+        <div className="embla__buttons pb-7 ">
          <div className="rounded-full  border hover:bg-[#1C1C1D] hover:translate-x-0 border-gray-200">
          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
          </div>
