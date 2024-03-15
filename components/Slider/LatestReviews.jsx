@@ -51,11 +51,13 @@ const LatestReviews = (props) => {
              
                 <div className=" flex  text-center">
                
+                    <div className="ml-5 mb-4">
                     <img
                       src={imageUrl}
                       alt={`Slide ${index + 1}`}
-                      className="h-[40px] w-[100px] bg-cover  rounded-full object-cover mb-4"
+                      className="h-[40px] w-[100px] bg-cover  rounded-full object-cover "
                     />
+                    </div>
                
                   <div className="flex flex-col justify-start ">
                     
@@ -79,7 +81,7 @@ const LatestReviews = (props) => {
                       <h6>
                         Reviews<span className=" text-center text-gray-500"> Vicious</span>{" "}
                       </h6>
-                      <h6 className="text-center border-l ">
+                      <h6 className="text-center mx-1 border-l ">
                         It was easy and fast to read.
                         It was easy and fast to read.It was easy and fast to read.
                       </h6>
