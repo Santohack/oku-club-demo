@@ -10,7 +10,7 @@ import {
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 
-const EmblaCarousel = (props) => {
+const LatestReviews = (props) => {
   const { images, options } = props; // Use 'images' instead of 'slides'
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
@@ -76,4 +76,4 @@ const EmblaCarousel = (props) => {
   );
 };
 
-export default EmblaCarousel;
+export default LatestReviews;
