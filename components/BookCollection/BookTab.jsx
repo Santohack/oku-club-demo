@@ -25,9 +25,9 @@ const BookTabs = ({ children }) => {
               <span>{child.props.title}</span>
               {child.props.counter && (
                 <span
-                  className={`ml-2 px-3 py-1 text-gray-800 rounded-full ${
+                  className={`ml-2 px-3 py-1  rounded-full ${
                     activeTab === child.props.label
-                      ? "bg-slate-100"
+                      ? "bg-slate-100 text-gray-800"
                       : "bg-[#1C1C1D] text-gray-100"
                   }`}
                 >

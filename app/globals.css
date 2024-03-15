@@ -143,11 +143,11 @@
   height: var(--slide-height);
 }
 .embla__controls {
-  display: grid;
+  display: flex;
   grid-template-columns: auto 1fr;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1.2rem;
-  margin-top: 1.8rem;
+  /* margin-top: 1.8rem; */
 }
 .embla__buttons {
   display: grid;

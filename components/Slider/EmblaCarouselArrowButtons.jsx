@@ -73,7 +73,7 @@ export const NextButton = (props) => {
       type="button"
       {...restProps}
     >
-      <svg height="20" className="rotate-180" viewBox="0 0 28 28" width="20" class="css-1wp5krq"
+      <svg height="20" className="flex items-center rotate-180" viewBox="0 0 28 28" width="20" class="css-1wp5krq"
         fill="currentColor">
         <path
           fillRule="evenodd"
